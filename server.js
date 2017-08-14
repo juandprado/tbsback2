@@ -9,7 +9,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://ds151108.mlab.com:51108/heroku_7jn1xvvz');
+mongoose.connect('mongodb://juand:juand@ds151108.mlab.com:51108/heroku_7jn1xvvz');
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
